@@ -24,7 +24,7 @@ puts 'Yes'
 elsif command == 'WillYouMarryMe'
 puts 'Yes'
 elsif command == 'DoYouWantToGetMarriedSomeday'
-puts 'I do, and it'd be nice to settle down' 
+puts 'I do' 
 end
 end
 
