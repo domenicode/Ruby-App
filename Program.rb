@@ -15,7 +15,7 @@ puts ' -- '
 elsif command == 'WhatDayIsIt'
 puts 'Today is ' + Time.now.strftime("%A")
 elsif command == 'WhatTimeIsIt'
-puts 'It is ' + Time.now.strftime("%I : %M %p")
+puts 'It is ' + Time.now.strftime("%I : %M %p %Z")
 end
 end
 
