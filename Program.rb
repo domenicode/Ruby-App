@@ -1,13 +1,6 @@
 x=1
 while x == 1
-puts 'Enter One of these:'
-puts 'WhatsYourName'
-puts 'HowAreYou'
-puts 'WhatDayIsIt'
-puts 'WhatTimeIsIt'
-puts 'AreYouSingle'
-puts 'WillYouMarryMe'
-puts 'DoYouWantToGetMarriedSomeday'
+puts 'use Help to see a list of commands'
 command = gets.chomp
 if command == 'WhatsYourName'
 puts 'My Name is Jo (Josephine)'
@@ -24,7 +17,16 @@ puts 'Yes'
 elsif command == 'WillYouMarryMe'
 puts 'Yes'
 elsif command == 'DoYouWantToGetMarriedSomeday'
-puts 'I do' 
+puts 'I do'
+elsif command == 'Help'
+puts 'Enter One of these:'
+puts 'WhatsYourName'
+puts 'HowAreYou'
+puts 'WhatDayIsIt'
+puts 'WhatTimeIsIt'
+puts 'AreYouSingle'
+puts 'WillYouMarryMe'
+puts 'DoYouWantToGetMarriedSomeday'
 end
 end
 
